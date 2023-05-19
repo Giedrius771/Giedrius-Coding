@@ -46,4 +46,4 @@ print(f'Žodžių skaičius: {word_count}')
 print(f'Skaičių skaičius: {number_count}')
 print(f'Didžiųjų raidžių skaičius: {uppercase_count}')
 print(f'Mažųjų raidžių skaičius: {lowercase_count}')
-##SADSA
+print(f'Mažųjų raidžių skaičius: {lowercase_count}')
