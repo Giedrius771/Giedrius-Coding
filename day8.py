@@ -92,3 +92,5 @@ print("Sorted by age:", sorted_by_age)
 
 reversed_sorted_by_age = list(reversed(sorted_by_age))
 print("Reversed sorted by age:", reversed_sorted_by_age)
+print("Reversed sorted by age:", reversed_sorted_by_age)
+print("Reversed sorted by age:", reversed_sorted_by_age)
