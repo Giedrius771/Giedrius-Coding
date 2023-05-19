@@ -162,3 +162,6 @@ serial_number = 123
 personal_code = generate_personal_code(date_of_birth, gender, serial_number)
 print(personal_code)
 print(is_valid_personal_code(personal_code))
+
+sadas
+######
