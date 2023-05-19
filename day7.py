@@ -1,4 +1,3 @@
-import os
 import datetime
 
 # Sukuriamas failas "Tekstas.txt" su pilnu tekstu "Zen of Python"
