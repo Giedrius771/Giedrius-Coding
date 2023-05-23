@@ -39,15 +39,12 @@ def handle_enter(event):
     greet()
 
 
-# Create the main window
 window = tk.Tk()
 window.title("Sveikinimo programa")
 
-# Create a frame for the input elements
 input_frame = tk.Frame(window)
 input_frame.pack(pady=10)
 
-# Create the name label and entry
 name_label = tk.Label(input_frame, text="Įveskite vardą:", font=("Arial", 14))
 name_label.pack(side="left")
 
@@ -55,18 +52,14 @@ name_entry = tk.Entry(input_frame, width=30, font=("Arial", 14))
 name_entry.pack(side="left")
 name_entry.bind("<Return>", handle_enter)  # Bind the Enter key to the handle_enter function
 
-# Create the button
 button = tk.Button(window, text="Patvirtinti", command=greet, font=("Arial", 14, "bold"))
 button.pack(pady=10)
 
-# Create the result label
 result_label = tk.Label(window, text="", font=("Arial", 14, "bold"))
 result_label.pack()
 
-# Set focus on the name entry field
 name_entry.focus()
 
-# Start the main loop
 window.mainloop()
 ## uzduotis 3 ########
 import tkinter as tk
@@ -93,35 +86,27 @@ def restore_text():
 def exit_program():
     window.destroy()
 
-
-# Create the main window
 window = tk.Tk()
 window.title("Sveikinimo programa")
 
-# Create a frame for the input elements
 input_frame = tk.Frame(window)
 input_frame.pack(pady=10)
 
-# Create the name label and entry
 name_label = tk.Label(input_frame, text="Įveskite vardą:", font=("Arial", 14))
 name_label.pack(side="left")
 
 name_entry = tk.Entry(input_frame, width=30, font=("Arial", 14))
 name_entry.pack(side="left")
-name_entry.bind("<Return>", handle_enter)  # Bind the Enter key to the handle_enter function
+name_entry.bind("<Return>", handle_enter)
 
-# Create the button
 button = tk.Button(window, text="Patvirtinti", command=greet, font=("Arial", 14, "bold"))
 button.pack(pady=10)
 
-# Create the result label
 result_label = tk.Label(window, text="", font=("Arial", 14, "bold"))
 result_label.pack()
 
-# Set focus on the name entry field
 name_entry.focus()
 
-# Create the menu
 meniu = tk.Menu(window)
 window.config(menu=meniu)
 
