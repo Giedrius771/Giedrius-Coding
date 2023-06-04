@@ -1,0 +1,42 @@
+2023-05-23 11:00:13,578, INFO, Skaiciu (10, 20, 30, 40) suma lygi: 100
+2023-05-23 11:00:13,578, INFO, Skaičiaus 25 šaknis: 5.0
+2023-05-23 11:00:13,578, INFO, Sakinio 'Kaip silta lauke varom i lauka!' simboliu kiekis: 31
+2023-05-23 11:00:13,578, INFO, Rezultatas, padalinus 100 iš 4: 25.0
+2023-05-23 11:00:13,578, ERROR, Išimtis įvyko skaičiuojant šaknį: must be real number, not str
+Traceback (most recent call last):
+  File "/Users/giedriuspranevicius/mainbase/helper.py", line 27, in skaiciuoti_suma2
+    result = math.sqrt(num)
+TypeError: must be real number, not str
+2023-05-23 11:00:13,578, ERROR, Išimtis įvyko dalyboje iš nulio: division by zero
+Traceback (most recent call last):
+  File "/Users/giedriuspranevicius/mainbase/helper.py", line 40, in dalyba
+    result = x / y
+ZeroDivisionError: division by zero
+2023-05-23 16:33:31,482, INFO, Skaiciu (10, 20, 30, 40) suma lygi: 100
+2023-05-23 16:33:31,482, INFO, Skaičiaus 25 šaknis: 5.0
+2023-05-23 16:33:31,482, INFO, Sakinio 'Kaip silta lauke varom i lauka!' simboliu kiekis: 31
+2023-05-23 16:33:31,483, INFO, Rezultatas, padalinus 100 iš 4: 25.0
+2023-05-23 16:33:31,483, ERROR, Išimtis įvyko skaičiuojant šaknį: must be real number, not str
+Traceback (most recent call last):
+  File "/Users/giedriuspranevicius/mainbase/helper.py", line 15, in skaiciuoti_suma2
+    result = math.sqrt(num)
+TypeError: must be real number, not str
+2023-05-23 16:33:31,483, ERROR, Išimtis įvyko dalyboje iš nulio: division by zero
+Traceback (most recent call last):
+  File "/Users/giedriuspranevicius/mainbase/helper.py", line 30, in dalyba
+    result = x / y
+ZeroDivisionError: division by zero
+2023-05-23 16:34:43,675, INFO, Skaiciu (10, 20, 30, 40) suma lygi: 100
+2023-05-23 16:34:43,675, INFO, Skaičiaus 25 šaknis: 5.0
+2023-05-23 16:34:43,675, INFO, Sakinio 'Kaip silta lauke varom i lauka!' simboliu kiekis: 31
+2023-05-23 16:34:43,675, INFO, Rezultatas, padalinus 100 iš 4: 25.0
+2023-05-23 16:34:43,675, ERROR, Išimtis įvyko skaičiuojant šaknį: must be real number, not str
+Traceback (most recent call last):
+  File "/Users/giedriuspranevicius/mainbase/helper.py", line 29, in skaiciuoti_suma2
+    result = math.sqrt(num)
+TypeError: must be real number, not str
+2023-05-23 16:34:43,675, ERROR, Išimtis įvyko dalyboje iš nulio: division by zero
+Traceback (most recent call last):
+  File "/Users/giedriuspranevicius/mainbase/helper.py", line 44, in dalyba
+    result = x / y
+ZeroDivisionError: division by zero

@@ -1,0 +1,18 @@
+2023-05-23 10:33:41,030, INFO, Skaiciu (10, 20, 30, 40) suma lygi: 100
+2023-05-23 10:33:41,031, INFO, Skaičiaus 25 šaknis: 5.0
+2023-05-23 10:33:41,031, INFO, Sakinio 'Hello, world!' simboliu kiekis: 13
+2023-05-23 10:33:41,031, INFO, Rezultatas, padalinus 10 iš 3: 3.3333333333333335
+2023-05-23 10:33:41,031, ERROR, Išimtis įvyko skaičiuojant šaknį: must be real number, not str
+Traceback (most recent call last):
+  File "/Users/giedriuspranevicius/mainbase/helper.py", line 13, in skaiciuoti_suma2
+    result = math.sqrt(num)
+TypeError: must be real number, not str
+2023-05-23 10:33:41,031, ERROR, Išimtis įvyko dalyboje iš nulio: division by zero
+Traceback (most recent call last):
+  File "/Users/giedriuspranevicius/mainbase/helper.py", line 26, in dalyba
+    result = x / y
+ZeroDivisionError: division by zero
+2023-05-23 16:08:38,250, INFO, Skaiciu (20, 30, 40, 60) suma lygi: 150
+2023-05-23 16:08:38,250, INFO, Skaičiaus 25 šaknis: 5.0
+2023-05-23 16:08:38,250, INFO, Sakinio 'Siandien jau antradienis kai gerai' simboliu kiekis: 34
+2023-05-23 16:08:38,251, INFO, Rezultatas, padalinus 125 iš 5: 25.0
