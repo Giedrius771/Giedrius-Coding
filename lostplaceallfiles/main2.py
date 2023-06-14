@@ -1,8 +1,8 @@
 # uzduotis1
-sarasas.append(5)
-print(sarasas)
-sarasas.append("stalas")
-print(sarasas)
+# sarasas.append(5)
+# print(sarasas)
+# sarasas.append("stalas")
+# print(sarasas)
 
 sarasas = ["Laba diena"]
 sarasas.append("stalas")

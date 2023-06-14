@@ -16,7 +16,7 @@ gpa = 3.2
 distance = 2.5
 price = 10.99
 
-print(f"Your gps is {gpa}")
+print(f"Your gpa is {gpa}")
 print(f"You ran {distance}Km")
 print(f"The price is ${price}")
 

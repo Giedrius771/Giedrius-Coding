@@ -1,0 +1,72 @@
+[
+  {
+    "IP": "78.61.177.42",
+    "Country": "Lithuania",
+    "City": "Vilnius",
+    "Temp (C)": 20.57,
+    "Weather": "clear sky"
+  },
+  {
+    "IP": "174.217.10.111",
+    "Country": "United States",
+    "City": "Ashburn",
+    "Temp (C)": 21.49,
+    "Weather": "overcast clouds"
+  },
+  {
+    "IP": "187.121.176.91",
+    "Country": "Brazil",
+    "City": "Santo Cristo",
+    "Temp (C)": 26.45,
+    "Weather": "heavy intensity rain"
+  },
+  {
+    "IP": "176.114.85.116",
+    "Country": "Russia",
+    "City": "Moscow",
+    "Temp (C)": 18.84,
+    "Weather": "clear sky"
+  },
+  {
+    "IP": "174.59.204.133",
+    "Country": "United States",
+    "City": "",
+    "Temp (C)": 33.25,
+    "Weather": "clear sky"
+  },
+  {
+    "IP": "54.209.112.174",
+    "Country": "United States",
+    "City": "",
+    "Temp (C)": 33.25,
+    "Weather": "clear sky"
+  },
+  {
+    "IP": "109.185.143.49",
+    "Country": "Moldova",
+    "City": "Chi\u0219in\u0103u",
+    "Temp (C)": 18.24,
+    "Weather": "overcast clouds"
+  },
+  {
+    "IP": "176.114.253.216",
+    "Country": "Czechia",
+    "City": "Prague",
+    "Temp (C)": 21.14,
+    "Weather": "clear sky"
+  },
+  {
+    "IP": "210.171.87.76",
+    "Country": "Japan",
+    "City": "Tokyo",
+    "Temp (C)": 21.57,
+    "Weather": "light rain"
+  },
+  {
+    "IP": "24.169.250.142",
+    "Country": "United States",
+    "City": "Austin",
+    "Temp (C)": 25.02,
+    "Weather": "scattered clouds"
+  }
+]

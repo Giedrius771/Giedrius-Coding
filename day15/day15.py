@@ -20,22 +20,22 @@ def keisti_data(data):
 print(keisti_data("25.05.2023"))
 print(keisti_data("01.12.2022"))
 print(keisti_data("2022.23.05"))
-##### 2 uzduotis ###
-# import re
-#
-# text = '''Workshop & Tutorial proposals: November 21, 2019
-# Notification of acceptance: December 1, 2019
-# Workshop & Tutorial websites online: December 18, 2019
-# Workshop papers: February 28, 2020
-# Workshop paper notifications: March 27, 2020
-# Workshop paper camera-ready versions: April 10, 2020
-# Tutorial material due (online): April 10, 2020'''
-#
-# date_regex = r"([A-Za-z]+\s\d{1,2},\s\d{4})"
-#
-# date_list = re.findall(date_regex, text)
-#
-# print(date_list)
+#### 2 uzduotis ###
+import re
+
+text = '''Workshop & Tutorial proposals: November 21, 2019
+Notification of acceptance: December 1, 2019
+Workshop & Tutorial websites online: December 18, 2019
+Workshop papers: February 28, 2020
+Workshop paper notifications: March 27, 2020
+Workshop paper camera-ready versions: April 10, 2020
+Tutorial material due (online): April 10, 2020'''
+
+date_regex = r"([A-Za-z]+\s\d{1,2},\s\d{4})"
+
+date_list = re.findall(date_regex, text)
+
+print(date_list)
 ## 3 uzduotis####
 import re
 
